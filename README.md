@@ -12,6 +12,11 @@ echo "YOUR_ENCRYPTED_STRING" | openssl enc -aes-256-cbc -a -d -salt -pbkdf2 -pas
 echo -n "hello world" | openssl enc -aes-256-cbc -a -salt -pbkdf2 -iter 100000 -pass pass:1234
 
 
+# outputs
+U2FsdGVkX18xQDOokNSUCl9X46fRecWneqlShDZHdrw=
+U2FsdGVkX18/UmoGbfprz1wdS+pncO5DV5y3v2Y0ltg=
+U2FsdGVkX18Lon5gX9xSx+9i75+3ObA6DjfcG3xJToU=
+
 
 # ================= WITH SCRIPT ================= #
 
