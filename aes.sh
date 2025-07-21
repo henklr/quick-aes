@@ -7,8 +7,7 @@ function usage() {
     echo "  $0 encrypt   # Encrypt input text"
     echo "  $0 decrypt   # Decrypt base64 ciphertext"
     echo ""
-    echo "Optional environment variable:"
-    echo "  ITER=200000  # Set PBKDF2 iterations"
+    echo "Optional: Set PBKDF2 iterations in aes.sh"
 }
 
 if [ "$#" -ne 1 ]; then
